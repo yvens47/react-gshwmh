@@ -36,7 +36,9 @@ export default function Property(props) {
       </div>
 
       <div class="property-attributes text-center">
-        <div class="col-xs-4">
+      <div class="container">
+        <div class="row">
+        <div class=" col-sm">
           <h4>
             <i class="flaticon-plans" /> 2
           </h4>
@@ -44,7 +46,7 @@ export default function Property(props) {
             Rooms
           </p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-sm">
           <h4>
             <i class="flaticon-bed" /> 1
           </h4>
@@ -52,13 +54,15 @@ export default function Property(props) {
             Bedrooms
           </p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-sm">
           <h4>
             <i class="flaticon-bathtub" /> 1
           </h4>
           <p class="text-overflow" title="Bath">
             Bath
           </p>
+        </div>
+        </div>
         </div>
       </div>
       <div class="property-buttons">
