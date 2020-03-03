@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-class Login extends React.Component {
+class Properties extends React.Component {
   render() {
     return (
-      <div className="container">
-        <div className="row">
+      <div className="container-fluid">
+        <div className="row mt-5">
+        <div className='map_list'>sffs</div>
           <div className="col-md-6 mt-5 pt-5 m-auto">
             property
             
@@ -14,4 +15,4 @@ class Login extends React.Component {
   }
 }
 
-export default Login;
+export default Properties;

@@ -7,6 +7,8 @@ import Footer from "./components/footer";
 
 import Signup from "./components/login/Signup";
 import Login from "./components/login/login";
+import Properties from "./components/properties/properties";
+
 //resources
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -161,6 +163,10 @@ class App extends Component {
           </Route>
           <Route exact path="/login">
             <Login/>
+          </Route>
+
+          <Route exact path="/lists">
+            <Properties/>
           </Route>
         </Router>
 
