@@ -1,5 +1,8 @@
 import React from "react";
 import BusinessIcon from '@material-ui/icons/Business';
+import plan  from '../svg/003-plans.svg';
+import bed  from '../svg/001-bed.svg';
+import bath  from '../svg/002-hygienic.svg';
 
 export default function Property(props) {
   return (
@@ -40,7 +43,13 @@ export default function Property(props) {
         <div class="row">
         <div class=" col-sm">
           <h4>
-            <i class="flaticon-plans" /> 2
+           <img
+            width="640"
+            height="425"
+            src={plan}
+            class="attachment-large size-large wp-post-image"
+            alt=""
+          /> <i class="flaticon-plans" /> 2
           </h4>
           <p class="text-overflow" title="Rooms">
             Rooms
@@ -48,7 +57,13 @@ export default function Property(props) {
         </div>
         <div class="col-sm">
           <h4>
-            <i class="flaticon-bed" /> 1
+            <img
+            width="640"
+            height="425"
+            src={bed}
+            class="attachment-large size-large wp-post-image"
+            alt=""
+          /><i class="flaticon-bed" /> 1
           </h4>
           <p class="text-overflow" title="Bedrooms">
             Bedrooms
@@ -56,7 +71,13 @@ export default function Property(props) {
         </div>
         <div class="col-sm">
           <h4>
-            <i class="flaticon-bathtub" /> 1
+            <img
+            width="640"
+            height="425"
+            src={bath}
+            class="attachment-large size-large wp-post-image"
+            alt=""
+          /><i class="flaticon-bathtub" /> 1
           </h4>
           <p class="text-overflow" title="Bath">
             Bath

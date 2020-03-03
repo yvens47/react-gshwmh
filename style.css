@@ -50,6 +50,10 @@ body {
     border-radius: 50%;
     border: solid 10px #ecf3f9;
 }
+.property-attributes img {
+    width: 50%;
+    /* color: green; */
+}
 
 .banner img:hover {
     background: #17a2b8;
