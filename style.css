@@ -9,6 +9,11 @@ body {
     margin: 0;
     padding: 0;
 }
+.map_list {
+    background: white;
+    min-height: 500px;
+    width: 100%;
+}
 .MuiAppBar-colorPrimary {
     color: #fff;
     background-color: #3facb5;
