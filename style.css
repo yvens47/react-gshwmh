@@ -133,6 +133,55 @@ body {
     max-width: 31.333333%;
 }
 }
+.property-price, .agent-title {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: auto;
+    max-width: 80%;
+    padding: 8px 16px;
+    background: rgba(132, 132, 132, 0.66);
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+    border-bottom-left-radius: 24px;
+}
+
+.property-status {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: auto;
+    max-width: 70%;
+    padding: 5px 10px;
+    background: #1b1d2a;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.arrow-ribbon {
+    background-image: linear-gradient(to right, rgba(216, 36, 96, 0.6) , #d82460);
+    color: #FFF;
+    padding: 4px 10px;
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    font-size: 13px;
+    font-family: "Varela Round", 'Nunito', Helvetica, Arial, sans-serif;
+}
+.property-text, .agent-text, .agency-text {
+    position: relative;
+    width: 50%;
+    display: table-cell;
+    padding: 15px;
+    vertical-align: top;
+    background: #fff;
+}
+
 
 .property-container, .agent-container, .agency-container{
 	margin-bottom: 30px;

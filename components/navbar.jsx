@@ -44,6 +44,9 @@ export default function Navbar(props) {
                 <a className="dropdown-item" href="#">
                   Another action
                 </a>
+                <a className="dropdown-item" href="/lists">
+                  All
+                </a>
                 <div className="dropdown-divider" />
                 <a className="dropdown-item" href="#">
                   Something else here

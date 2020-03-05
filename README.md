@@ -1,3 +1,2 @@
 # react-gshwmh
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-gshwmh)
+A basic Real estate application,
