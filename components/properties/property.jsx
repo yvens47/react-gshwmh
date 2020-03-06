@@ -17,9 +17,9 @@ export default function Property(props) {
           <h4>House</h4>
           <span>$ 148</span>
         </div>
-        <div class="property-status">
+       {/* <div class="property-status">
           <span class="property-badge">Featured</span>
-        </div>
+        </div>*/}
         <div class="arrow-ribbon">
           <span class="property-badge">Rent</span>
         </div>

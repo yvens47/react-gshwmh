@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import Property from "./property"
+import Property from "./property";
 
 class Properties extends React.Component {
   state = {
@@ -25,14 +25,18 @@ class Properties extends React.Component {
   render() {
     console.log(this.state.lists);
     return (
-      <div className="container-fluid">
-        <div className="row mt-5">
-          <div className="map_list">sffs</div>
-          <div className="col-md-6 mt-5 pt-5 m-auto">property</div>
-          <div className="col-md-6">
-            {this.state.lists.map((property) =>
-            <li><Property property={property}/> </li>
-            )}
+      <div>
+        <div className="map_list">sffs</div>
+        <div className="container">
+          <div className="row mt-5">
+            <div className="col-md-9">
+              {this.state.lists.map(property => (
+                <li>
+                  <Property property={property} />{" "}
+                </li>
+              ))}
+            </div>
+            <div className="col-md-3"> Search </div>
           </div>
         </div>
       </div>
