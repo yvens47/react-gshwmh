@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Property from "./property";
+import PropertySlide from "./PropertySlide";
+
 
 class Properties extends React.Component {
   state = {
@@ -23,13 +25,23 @@ class Properties extends React.Component {
       });
   };
   render() {
-    console.log(this.state.lists);
+   
     return (
       <div>
-        <div className="map_list">sffs</div>
+        <div className="map_list">
         <div className="container">
           <div className="row mt-5">
-            <div className="col-md-9">
+            <div className='col-md-12 mt-5'><h1>hello world</h1> </div>
+          </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row mt-5">
+          <div className='col-md-8'>
+          <PropertySlide />
+          
+          </div>
+            <div className="col-md-4">
               {this.state.lists.map(property => (
                 <li>
                   <Property property={property} />{" "}

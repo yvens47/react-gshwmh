@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 class Login extends React.Component {
+  state ={
+    account: {email:'', password:''}
+  }
   render() {
     return (
       <div className="container">
