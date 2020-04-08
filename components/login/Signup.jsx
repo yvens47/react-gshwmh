@@ -14,7 +14,7 @@ class Signup extends React.Component {
                     type="email"
                     className="form-control"
                     id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    
                     placeholder="Enter email"
                   />
                   <small id="emailHelp" className="form-text text-muted">

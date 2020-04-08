@@ -129,6 +129,20 @@ const HomePage  =  () =>{
                 </div>
               </div>
             </div>
+
+           <div className="banner  pt-5 pb-5 testimony">
+              <div className="container">
+                <div className="row">
+                  <div className='col-md-12'>
+                  <h1 class="text-center">Featured Properties</h1>
+                  <p class="text-center">See our best properties</p>
+
+                  Conter
+                  </div>
+                </div>
+              </div>
+
+           </div>
             
             
              </div>

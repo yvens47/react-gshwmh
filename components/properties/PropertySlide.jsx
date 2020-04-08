@@ -7,6 +7,11 @@ const PropertySlide = ()=>{
   <div>
 
     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
     <div className="carousel-inner">
       <div className="carousel-item active">
         <img src="https://images.pexels.com/photos/1399287/pexels-photo-1399287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="d-block w-100" alt="..."/>

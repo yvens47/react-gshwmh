@@ -42,6 +42,32 @@ class Properties extends React.Component {
           
           </div>
             <div className="col-md-4">
+              <div className='filter-box container mb-2 border border-primary'>
+                 <div className="row p-0">
+                    <div className='col-md-12'>
+
+                    <form>
+                      <div className="form-row">
+                        <div className="col">
+                          <input type="text" className="form-control" placeholder="First name"/>
+                        </div>
+                        <div className="col">
+                          <label for="exampleFormControlSelect1">Example select</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>All</option>
+                          <option>Rent</option>
+                          <option>House</option>
+                          <option>TownHome</option>
+                          <option>Condos</option>
+                        </select>
+                                            </div>
+                      </div>
+                    </form>
+                    
+                    
+                    </div>
+                 </div>
+              </div>
               {this.state.lists.map(property => (
                 <li>
                   <Property property={property} />{" "}

@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div>
       <div className='wrapper-box'>
-        <Navbar />
+        <Navbar user={{username: "jean Pierre"}} />
         <Switch>
           
           <Route exact path="/">

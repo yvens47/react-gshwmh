@@ -67,6 +67,8 @@ export default function Navbar(props) {
           </form>
 
           <ul className="navbar-nav mr-0">
+           {props.user === null &&
+           <React.Fragment>
             <li className="nav-item">
               <a className="nav-link" href="/login">
                 Login
@@ -77,6 +79,16 @@ export default function Navbar(props) {
                 Signup
               </a>
             </li>
+            </React.Fragment>
+           }
+           {props.user !== null &&
+           <li className="nav-item">
+              <a className="nav-link" href="/account">
+               {props.user.username}
+              </a>
+            </li>
+           
+           }
           </ul>
         </div>
      
